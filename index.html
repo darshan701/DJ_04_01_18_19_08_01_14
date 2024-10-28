@@ -7,6 +7,11 @@
 </head>
 <body style="background-color: black; margin: 0; width: 100vw; display:flex; overflow: hidden;">
     <img src="GL1TCH.png" alt="" style="height: 100vh; margin: auto;">
-    <audio loop autoplay src="60 Cycle Noise.mp3"></audio>
+    <audio id="bgm" loop autoplay src="60 Cycle Noise.mp3"></audio>
+    <script>
+        window.addEventListener('click',() => {
+            document.getElementById("bgm").play();
+        });
+    </script>
 </body>
 </html>
