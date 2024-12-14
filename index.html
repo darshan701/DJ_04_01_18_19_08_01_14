@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <style>
+        .btn {
+            all: unset;
+            position: absolute;
+            bottom: 5%;
+            left: 45%;
+            border: none;
+            border-radius: 8px;
+            padding: 15px 30px;
+            text-align: center;
+            background: #424242;
+            font-family: "Roboto Slab", serif;
+            font-size: 2em;
+        }
+        .btn:hover {
+            background: #616161;
+            cursor: pointer;
+        }
+    </style>
+
 </head>
 <body style="background-color: black; margin: 0; width: 100vw; display:flex; overflow: hidden;">
     <img src="GL1TCH.png" alt="" style="height: 100vh; margin: auto;">
     <audio id="bgm" loop src="60 Cycle Noise.mp3"></audio>
-    <button>Console</button>
+    <a class="btn" href="https://darshan701.github.io/H_terminal">
+        <span>Console</span>
+    </a>
     <script>
         window.onclick = (event) => {
             console.log("ahsgfyjtasfa");
